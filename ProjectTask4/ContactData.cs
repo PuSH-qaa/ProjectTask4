@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ProjectTask4
 {
-    class ContactData
+    public class ContactData
     {
         private string firstname;
         private string middlename = "";
         private string lastname = "";
-
+         
         public ContactData(string firstname)
         {
             this.firstname = firstname;

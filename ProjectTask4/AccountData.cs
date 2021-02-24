@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace ProjectTask4
 {
-    class AccountData
+    public class AccountData
     {
         private string username;
         private string password;
 
         public AccountData(string username, string password)
         {
-            this.username = username;
+            this.username = username; 
             this.password = password;
         }
 
