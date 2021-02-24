@@ -15,7 +15,6 @@ namespace ProjectTask4
         private IWebDriver driver;
         private StringBuilder verificationErrors;
         private string baseURL;
-        private bool acceptNextAlert = true;
 
         [SetUp]
         public void SetupTest()
